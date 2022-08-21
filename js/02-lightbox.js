@@ -5,7 +5,7 @@ import { galleryItems } from './gallery-items.js';
 const galleryEl = document.querySelector(".gallery");
 createGalleryItems(galleryItems);
 
-var lightbox = new SimpleLightbox(".gallery a", {
+const lightbox = new SimpleLightbox(".gallery a", {
   captions: true,
   captionsData: "alt",
   captionPosition: 'bottom',
@@ -23,4 +23,4 @@ function createGalleryItems(galleryItems) {
 }
 
 
-// console.log(galleryItems);
+console.log(galleryItems);

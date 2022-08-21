@@ -53,22 +53,4 @@ galleryEl.addEventListener("click", openModal);
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// console.log(galleryItems);
+console.log(galleryItems);
